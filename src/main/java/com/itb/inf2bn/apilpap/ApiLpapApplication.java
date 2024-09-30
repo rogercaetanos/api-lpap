@@ -10,22 +10,22 @@ public class ApiLpapApplication {
 
 		SpringApplication.run(ApiLpapApplication.class, args);
 
+		/* Uma vez o projeto no git hub ....*/
+
 		/*
+		* Cada atualização no repositório local, devemos prosseguir com os seguintes passos:
 
-		Tarefa:
-Enviar projetos para o github
+	     1º  git add .
+	     2º  git commit -m  "mensagem correspondente do que foi feito"
+         3º  git push
 
-1- Criar um projeto
-2- Abrir qualquer terminal dentro da pasta do projeto
-3- Criar o repositório git ( git init )
-4- Preparar os arquivos que serão controlados
-(git add "nome de cada arquivo")
-Dica: Adicionar todos de um vez
-(git add .)
-Obs: A qualquer momento podemos conferir o status
-(git status)
+         Nota:  A qualquer momento vc pode utilizar o "git status" para saber o estado atual do projeto
 
-		 */
+		*/
+
+		System.out.println("Primeira atualização após gitHub");
+
+
 	}
 
 }
